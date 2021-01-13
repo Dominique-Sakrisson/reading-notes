@@ -141,3 +141,30 @@ these manipulate values
 3. string operators
 4. comparison operators
 5. logical operators 
+
+
+## Chapter 10 Decisions & loops
+a Decision has two components in a program
+1. an expression gets evaluated and returns a value
+2. for a given situation the conditional stement how to proceed
+
+When using comparison operators there are usually two parts to the comparison, operands and the operator. Operator would be the way in which the two operands are being compared.
+An operand can be a single value or it can be an expression.
+### logical operators
+1. Logical AND &&
+
+test for more than one condition
+
+2. Logical OR ||
+
+This tests for at least one condition
+
+3. Logical NOT !
+
+This takes a boolean value, and inverts it. True becomes false;
+
+**short circuiting**
+
+this is when there may be a logical && operator, it requires false && another test, if the first test results in true, the test expectation was never met and the second test is never attempted..
+
+
