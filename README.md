@@ -167,4 +167,65 @@ This takes a boolean value, and inverts it. True becomes false;
 
 this is when there may be a logical && operator, it requires false && another test, if the first test results in true, the test expectation was never met and the second test is never attempted..
 
+## additional reading 1/12
 
+Main purpose of the article is explaining importance of and how to write an individual commit message.
+
+A team's approach to commits should be structured teams should agree on a common convention for commits.
+### 3 main points when making a commit
+1. style- use proper english and spell things out
+2. Content- what should or shouldnt be in the body of a commit message
+3. Metadata- How should issue tracking ID's pull requests numbers etc be referenced?
+
+### Seven rules to a great commit message
+1. **Separate subject from body with a blank line** can create problems with various tools if not line breaked
+2. Limit the subject line to 50 characters
+3. Capitalize the subject line
+4. Do not end the subject line with a period
+5. Use the imperative mood in the subject line
+6. Wrap the body at 72 characters.
+7. Use the body to explain what and why vs how
+
+## separate subject fomr body with a blank line
+
+Create blank lines in the body to separate the first line commit title, commit body, and further paragraphs. If using bullets or hyphens a somewhat prevalent convention is to use asteriks instead of bullets.
+
+
+Focus on the **why** you made a commit not the how. 
+
+When a committ message is simple enough for a one line like _"fix typo in the header"_ its okay to use just the one line in the command -m ''
+
+When a commit needs a bit of explaination you need to write a body.
+
+### git commands
+
+**git log** prints out a full log of the entry
+
+**git log --oneline** will print out only the subject line
+
+**git shortlog** prints out commits by the user, only the subject line
+
+## Limit the subject line to 50 characters
+not a hard cap, just a useful limit to keep in mind that promotes having concise commit subjects
+
+
+## capitolize subject line
+Start all subject lines with a capitol letter, pretty simple
+
+## Do not end subject line with a period
+
+## Use the imperative mood in subject line
+-spoken as if given command or instruction
+
+git will communicate back to users in the imperative so its ideal to tell git stuff in the same manor
+
+_example:_ default message created when using git merge is: '_Merge branch 'myFeat'_
+
+### A properly formed Git commit subject line should always be able to complete the following sentence:
+example: "if applied this commit will _refactor subsystem X for readability_
+
+## Wrap the body at 72 characters
+Git doesnt automatically wrap lines so you must do it manually, aim for 72 characters per line
+
+
+## use body to explain what  and why rather than how
