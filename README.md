@@ -90,3 +90,54 @@ having a property value of inherit will force an element to **inherit** from its
 
 
 # Javascript & Jquery
+## Chapter 2 basic javascript
+**statement** Each instruction written to a program 
+
+**code blocks** the statements inside of curly braces
+
+## data types
+1. Numerical data type
+2. String data type
+3. Boolean data type
+
+### declare a variable
+
+`var x = 'hello';`
+
+booleans are great to be used as switches when deciding which path the program will take
+
+### Variable naming rules
+1. name must start with a letter, $, or _, **specifically not a number**
+2. **Do not** use a dash or a period in a variable name
+3. Keywords and reserved words are off limits
+4. variables are case sensitive
+5. use names that are self documenting for ease of readability
+6. use proper casing for variable names of more than one word, either **camelCase** or **kebab-case**
+
+## Arrays
+` var foods = [ a food, 2 food, me food];`
+
+### array constructor example
+different from a standard array declaration
+` var foods = new Array('eggs', 'milk', 'cookies');`
+
+arrays are basically lists that for each element in the list it is assigned a value of its place in the list. That value is how you access the actual stored value of that index
+
+### arrays are objects as such they have properties
+one of which being the length property
+
+to use the length propert you would type the name of the array then dot operator and the length property **`myArray.length;`**
+
+### expressions
+expressions once evaluated returns a single value
+there are two types of expressions
+1. Expressions that assign a variable a value `var x = 3;`
+2. Expressions that use multiple values to return a single value `var xX = 3 + 3;`
+
+### operators
+these manipulate values
+1. assignment operators
+2. arithmetic operators
+3. string operators
+4. comparison operators
+5. logical operators 
