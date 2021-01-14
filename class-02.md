@@ -332,6 +332,51 @@ This takes a boolean value, and inverts it. True becomes false;
 
 this is when there may be a logical && operator, it requires false && another test, if the first test results in true, the test expectation was never met and the second test is never attempted..
 
+## switch statements
+starts with switch then you have parenthesis with a variable or function, for whatever the value, it is tested against each case to determine the next direction the program takes. If no case matches there is a **default** case that must be returned 
+
+each **case** has to have a **break;** keyword at the end.. has to break out of the switch somehow
+
+## type coercion
+this is when javascript converts data types automatically in attempts to complete the operation.
+This will create unexpected results
+
+**weak** typing is what javascript uses because it does type coercion
+
+other languages that dont use it are referred to ass **strong typing**
+
+This sort of thing is why we use strict comparison operators, it forces the need for types to be the same as well
+
+This also opens the doors for every value in javascript to be either truthy or falsey
+
+
+## Loops
+The counters of a loop
+1. initialization x=10;
+1. condition    x<0
+1. update   x--
+
+A couple loop keywords
+
+1. break 
+
+exits out of the current loop 
+
+2. continue
+
+interpreter to continue with current iteration, check condition if true it runs again.
+
+for loops are ideal for work that you know how many times you will need to perform the task
+
+## while loops
+
+more ideal for iteration when needed to do for an unknown number of times
+
+### do while loop
+slightly different than the while loop in that youre saying no matter what, DO this first, then do it until the condition is met.
+
+
+
 ## additional reading 1/12
 
 Main purpose of the article is explaining importance of and how to write an individual commit message.
