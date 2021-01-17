@@ -116,3 +116,6 @@ htmlandcssbookcom/
   
   Use locally scoped variable as often as possible. 
   
+# Pair Programming reading
+
+Pair programming has shown that it may be a tad slower at pushing out code, it has benefits that outweigh the slower speed. First of which being that the code is often of higher quality. When two people are together working on the same feature it seems that `two heads are better than one` the code is usually cleaner, and much more readable since it was built from a collaborative standpoint than the mind of a sole programmer. The two people have a chance to learn from each other as you work through a problem. It improves communication skills for both parties which leads to other benefits down the road.Examples being job interviews and being more fit for a collabortive working environment in the future. 
