@@ -104,10 +104,12 @@ In some browsers when they encounter whitespace they create a new empty text nod
 
 ## Get/Update element content 
 
+`innerHTML` can be used not onbly to update the text node value but they can be editted to include entirely new elements as well.
+set `innerHTML` to an empty string is one way to remove content from the element
 
 
-
-
+To remove elements via DOM manipulation, save the element node in a variable and the parent node in a variable use `removeChild()` on the containing element
+passing it the variable for the decided child
 
 
 
