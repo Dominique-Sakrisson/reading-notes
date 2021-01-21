@@ -82,6 +82,30 @@ Use the text nodes only porperty (nodeValue) to get the text from the element an
 
 `className/ id` -- `hasAttribute()` `getAttribute()` `setAttribute()` `removeAttribute()`
 
+### This is referred to as a DOM query
+document.getElementById
+
+If a query can return more than one node from the tree it will return a nodeList 
+**when returning a nodeList each node is given an index number** 
+
+These will be in order of how they appear on the html page
+`item()` can be used when passed an index value you want to work with
+
+**Live vs static ndoe lists**
+`static` is when you want to work with the same elements several times
+`live` when the script updates the page the nodelist updates as well, this is somehow faster than static node lists
+``queryselector()` is an example of creating a static node list, it wont update when the script changes the html info
+
+
+### Traversing the DOM
+`parentNode` `previousSibling` `nextSibling` `firstChild` `lastChild`
+#### White Space Nodes
+In some browsers when they encounter whitespace they create a new empty text node in the DOM tree
+
+## Get/Update element content 
+
+
+
 
 
 
