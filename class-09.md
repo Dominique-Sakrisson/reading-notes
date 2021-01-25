@@ -57,4 +57,6 @@ table.two {
 border-collapse: collapse;}
 ```
 
+# Chapter 6 JS Events
+
 
