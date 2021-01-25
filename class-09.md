@@ -59,4 +59,5 @@ border-collapse: collapse;}
 
 # Chapter 6 JS Events
 
-
+Event listeners are best served being attached to parent elements rather than an eveent on every child element. Less event listeneres mean better performance for your site.
+When the event fires, you want to grab the target of the event to read which child element the event happened on to determine what happens next. 
