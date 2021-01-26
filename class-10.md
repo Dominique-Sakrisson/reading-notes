@@ -53,4 +53,52 @@ up the stack looking for error handling code until it reaches the global executi
 1. Debug the script to fix errors
 1. Handle errors using `try, catch, throw, finally` statements
 
+Types of console messages, these will display in different colors in the console.
+1. console.info()
+1. console.warn()
+1. console.error()
 
+Writting a sett of related data to the console (grouping)
+1. console.group()
+
+```
+console .group( 'Area calculations');
+console .i nfo('Width ' , width);
+console .info( 'Height ', height);
+consol e. l og(area);
+cY console.groupEnd(); 
+```
+Logging out info in a table
+
+assuming we have a contacts object:
+`console.table(contacts); `
+
+writting to the console with a condition test
+
+`console.assert(this.value > 10, 'User entered less than 10'); `
+this tests if a condition is met and write to the console if the expression evaluates to false.
+
+
+### When debugging
+`debugger` keyword can be typed into your code to make your own breakpoints outside of the debugger
+
+
+### handling exceptions
+
+```
+try {
+//Try to execute this code
+catch (exception) {
+// If there is an exception, run this code
+finally {
+// This always gets executed
+}
+
+```
+To create your own error, you use the following line:
+`throw new Error('message');`
+
+This creates a new Error object (using the default
+Error object). The parameter is the message you
+want associated with the error. This message should
+be as descriptive as possible. 
