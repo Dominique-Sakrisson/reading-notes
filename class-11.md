@@ -43,3 +43,8 @@ Each of your page should have 3-5 keywords that you can focus on. The furtther a
 Analytics- tools such as good analytics will give you real time information on the users of your site, where they came from, how they got there, time spent on your site etc, 
 
 
+# Video and Audio API
+ 
+How browsers handle audio and video can all be different so its a good idea to override the default controls. 
+
+The summary of this piece is to show how to override video controls with css and js to incorportate full keyboard support and a nicer looking design to the overall video player.
