@@ -27,7 +27,7 @@ the function to create the chart is called with proper data and other properties
 ```
 
 
-# Basic usage of canvas
+# Articles on Canvas
 This as the title states instructs on basic usage for the canvas tag. The tag like any others can have different attributes, `height,width,id` 
 Sometimes like images the canvas will not be supported by the users browser. In which case intead of using an alt tag we can type our alternative rendering directly between the 
     `<canvas>   here will render as normal text if canvas is not supported</canvas>`
